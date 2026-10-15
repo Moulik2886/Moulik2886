@@ -1,133 +1,90 @@
-
 <div align="center">
 
-<img src="./profile-banner.png" width="100%" alt="Moulik Solanki - PHP Backend Web Developer" />
+<img src="./profile-banner.png" width="100%" alt="Moulik Solanki — Developer Banner" />
 
-# Hi, I'm Moulik Solanki 👋
+# Moulik Solanki
 
-### PHP Backend Developer | CodeIgniter 4 | MySQL
+**Software Developer · PHP Backend · Web Applications**
 
-Building scalable web applications with clean code and modern tools.
+I build practical web applications, backend systems, and digital services with a focus on clean code and reliability.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Moulik2886-181717?style=for-the-badge&logo=github)](https://github.com/Moulik2886)
-[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
-[![CodeIgniter](https://img.shields.io/badge/CodeIgniter_4-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)](https://codeigniter.com/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[GitHub Profile](https://github.com/Moulik2886) · [Repositories](https://github.com/Moulik2886?tab=repositories) · [Email Me](mailto:work.solankimoulik18@gmail.com)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-I'm a software developer with an MCA degree and experience building web applications, government portals, and commercial projects.
+I'm a software developer with an MCA background and experience building government portals, commercial applications, and backend services.
 
-- 🔭 Working with PHP, CodeIgniter 4, MySQL and REST APIs.
-- 🏛️ Experience developing government service portals and online application systems.
-- 💳 Worked on payment gateway integration and backend modules.
-- 🤖 Exploring AI-assisted development with ChatGPT, Cursor, Warp, Trae, Lovable and v0.dev.
-- 🌱 Always learning new technologies and improving my development skills.
-- 🎯 Focused on writing maintainable code and building practical solutions.
+- Developing applications with PHP and CodeIgniter 4.
+- Working with MySQL, REST APIs, JavaScript, and Bootstrap.
+- Building online service portals and integrating payment workflows.
+- Using AI-assisted tools to improve development speed and workflow.
+- Continuously learning, experimenting, and building useful software.
 
----
+## Tech Stack
 
-## 🛠️ Skills & Technologies
+| Area | Technologies |
+| --- | --- |
+| Backend | PHP, CodeIgniter 4 |
+| Database | MySQL |
+| Frontend | HTML5, CSS3, Bootstrap, JavaScript, jQuery |
+| Integrations | REST APIs, AJAX, JSON, Razorpay |
+| Tools | Git, GitHub, VS Code |
+| AI workflow | ChatGPT, Cursor, Warp, Trae, Lovable, v0.dev |
 
-<div align="center">
+## Selected Projects
 
-### Backend Development
-<img src="https://skillicons.dev/icons?i=php,codeigniter,mysql" alt="PHP, CodeIgniter and MySQL" />
+### Labour & Employment Portal
 
-### Frontend Development
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,js,jquery" alt="HTML, CSS, Bootstrap, JavaScript and jQuery" />
+Digital services for labour and employment, including employment registration, Job Mela, and BOCW-related workflows.
 
-### Tools & Workflow
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman" alt="Git, GitHub, VS Code and Postman" />
+**Stack:** PHP · CodeIgniter · MySQL  
+[Visit Portal →](https://labourdnhdd.in/)
 
-</div>
+### ShipWave
 
-**Also familiar with:** AJAX, JSON, REST APIs, Razorpay, authentication, role-based access control and AI-assisted coding.
+A fishing management platform with operational workflows and subscription-related features.
 
-**AI tools:** ChatGPT · Cursor AI · Warp · Trae · Lovable · v0.dev
+**Stack:** PHP · CodeIgniter · MySQL  
+[Visit Website →](https://shipwave.in/)
 
----
+### BGMI Tournament Platform
 
-## 🚀 Featured Projects
+A gaming tournament platform designed around team participation, match management, and kill-based scoring.
 
-### 1. Labour & Employment Portal
-A government service portal supporting digital labour and employment services.
+**Stack:** PHP · CodeIgniter · MySQL  
+[Visit Platform →](https://bgmi.shipwave.in/)
 
-- Employment Card and Job Mela modules
-- BOCW-related services
-- PHP and CodeIgniter backend development
+### J-Tech — Code Your Vision
 
-🔗 [Visit Portal](https://labourdnhdd.in/)
+Freelance software and digital services covering website development, web applications, and digital solutions.
 
-### 2. ShipWave
-A fishing management platform focused on operational workflows and online services.
+[Explore My Repositories →](https://github.com/Moulik2886?tab=repositories)
 
-- Fishing management features
-- Subscription and payment integration work
-
-🔗 [Visit ShipWave](https://shipwave.in/)
-
-### 3. BGMI Tournament Platform
-A gaming tournament website for team-based competitions.
-
-- Team registration and match management
-- Tournament format with 25 teams and 3 matches
-- Kill-based scoring concept
-
-🔗 [Visit BGMI Tournament](https://bgmi.shipwave.in/)
-
-### 4. J-Tech — Code Your Vision
-A freelance technology and digital services initiative.
-
-- Website and software development
-- Web applications and digital solutions
-- Modern UI and backend integration
-
-🔗 [Explore My GitHub](https://github.com/Moulik2886?tab=repositories)
-
----
-
-## 📊 GitHub Stats
+## GitHub Activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Moulik2886&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics" />
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=Moulik2886&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="GitHub statistics" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moulik2886&layout=compact&theme=tokyonight&hide_border=true" alt="Most used programming languages" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Moulik2886&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Moulik2886&theme=github-dark&hide_border=true&area=true" alt="GitHub contribution activity graph" />
 
 </div>
 
 ---
 
-## 📈 Contribution Graph
+## Let's Connect
+
+Have a project, collaboration idea, or software development opportunity?
+
+**Email:** [work.solankimoulik18@gmail.com](mailto:work.solankimoulik18@gmail.com)  
+**GitHub:** [github.com/Moulik2886](https://github.com/Moulik2886)
 
 <div align="center">
 
-[![Moulik's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Moulik2886&theme=tokyo-night&hide_border=true)](https://github.com/Moulik2886)
-
-</div>
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-Moulik2886-181717?style=for-the-badge&logo=github)](https://github.com/Moulik2886)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:work.solankimoulik18@gmail.com)
-
-**Open to collaboration, interesting projects and software development opportunities.**
-
-*“Small steps every day lead to big results.”*
-
-⭐ Thanks for visiting my profile!
+*Building better solutions, one project at a time.*
 
 </div>
