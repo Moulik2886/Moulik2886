@@ -71,7 +71,7 @@
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Moulik2886&theme=tokyo-night&hide_border=false&border_color=253248&area=true&bg_color=050812&color=FF2D20&line=00f0ff&point=ffffff" alt="activity graph" width="100%"/>
+<img src="./assets/activity-graph.svg" alt="Engineering Activity &amp; Velocity Graph" width="100%"/>
 
 <br/><br/>
 
