@@ -1,76 +1,74 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=200&color=0:10b981,100:0ea5e9&text=Moulik%20Solanki&fontColor=ffffff&fontSize=52&fontAlignY=45&animation=fadeIn" width="100%" alt="header" />
+<img src="https://raw.githubusercontent.com/Moulik2886/Moulik2886/main/assets/banner.svg" width="100%" alt="Moulik Solanki - Full Stack Developer" />
 
-<h3>Full Stack Developer</h3>
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=900&color=10B981&center=true&vCenter=true&width=620&height=40&lines=Laravel+%C2%B7+CodeIgniter+%C2%B7+PHP+%C2%B7+JavaScript;I+turn+ideas+into+fast%2C+secure+web+apps;4+years+%C2%B7+10%2B+projects+%C2%B7+Gov+%26+E-commerce;Open+to+remote+roles+%E2%80%94+available+immediately" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=FBBF24&center=true&vCenter=true&width=760&height=40&lines=Building+secure%2C+scalable+web+applications;Government+portals+%C2%B7+Business+systems+%C2%B7+E-commerce;Clean+architecture.+Optimized+queries.+Reliable+APIs.;Available+immediately+%E2%80%94+Remote+friendly+%F0%9F%8C%8D" alt="typing" />
 
-<br/><br/>
+<br/>
 
-<a href="https://www.linkedin.com/in/moulik-solanki"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:solankimoulik18@gmail.com"><img src="https://img.shields.io/badge/Email-Say_Hello-10b981?style=flat-square&logo=gmail&logoColor=white" /></a>
-<img src="https://img.shields.io/badge/Open_to_Work-Immediate_Joiner-22c55e?style=flat-square" />
-<img src="https://komarev.com/ghpvc/?username=Moulik2886&label=Views&color=0ea5e9&style=flat-square" />
+<a href="https://www.linkedin.com/in/moulik-solanki"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:solankimoulik18@gmail.com"><img src="https://img.shields.io/badge/Email-Hire_Me-FBBF24?style=for-the-badge&logo=gmail&logoColor=0b1220" /></a>
+<img src="https://komarev.com/ghpvc/?username=Moulik2886&label=PROFILE+VIEWS&color=1e293b&labelColor=0b1220&style=for-the-badge" />
 
 </div>
 
 <br/>
 
-## About
+<div align="center">
 
-I'm a **Full Stack Developer** based in **Nani Daman, India**, with 4 years of experience building web applications end to end: database design, backend APIs, and the interfaces people actually use. I've shipped government portals, business systems and e-commerce stores using **Laravel, CodeIgniter 4 and Core PHP** on the backend, with **JavaScript, jQuery and Bootstrap** on the frontend.
+<img src="https://img.shields.io/badge/EXPERIENCE-4%2B_YEARS-FBBF24?style=for-the-badge&labelColor=0b1220" />
+<img src="https://img.shields.io/badge/PROJECTS-10%2B_SHIPPED-FBBF24?style=for-the-badge&labelColor=0b1220" />
+<img src="https://img.shields.io/badge/TRAFFIC_GROWTH-%2B50%25-FBBF24?style=for-the-badge&labelColor=0b1220" />
+<img src="https://img.shields.io/badge/MCA_GPA-8.34-FBBF24?style=for-the-badge&labelColor=0b1220" />
 
-I care about clean architecture, secure code and measurable results. One of my live government platforms saw a **50% traffic increase** after backend and caching optimizations.
+</div>
 
 <br/>
 
-## What I Do
+## 👨‍💻 About
+
+I'm a **Full Stack Developer** from **Nani Daman, India**. For the last four years I've been designing, building and scaling web applications from the database up to the interface, including platforms used by **government departments** and live e-commerce stores.
+
+I focus on the things that make software hold up in production: **clean MVC architecture, optimized MySQL, secure code and dependable integrations**. I also use AI tools like ChatGPT and Claude daily to move faster without cutting corners.
+
+<br/>
+
+## 🧭 How I Build
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="25%" valign="top" align="center">
 
-**🖥️ Frontend**
+### 🏗️
+**Architecture First**
 
-Responsive interfaces with HTML5, CSS3, JavaScript, jQuery, Ajax and Bootstrap.
-
-</td>
-<td width="33%" valign="top">
-
-**⚙️ Backend**
-
-MVC applications in Laravel, CodeIgniter 4 and Core PHP, built on solid OOP principles.
+MVC, OOP and clean separation of concerns so code stays easy to extend.
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top" align="center">
 
-**🗄️ Database & APIs**
+### 🛡️
+**Security by Default**
 
-MySQL schema design, indexing and query tuning, plus REST APIs and third-party integrations.
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-**💳 Integrations**
-
-Razorpay payments, SMS gateways and government service APIs.
+SQL injection, XSS and CSRF protection built into every project.
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top" align="center">
 
-**🛡️ Security**
+### ⚡
+**Performance Driven**
 
-SQL injection prevention, XSS and CSRF protection, secure coding practices.
+Schema design, indexing, query tuning and caching for high-traffic apps.
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top" align="center">
 
-**🚀 Delivery**
+### 🔌
+**Integration Ready**
 
-Git workflows, code reviews, Agile sprints, and Apache/Nginx deployments.
+Razorpay, SMS gateways and government APIs wired up end to end.
 
 </td>
 </tr>
@@ -78,50 +76,59 @@ Git workflows, code reviews, Agile sprints, and Apache/Nginx deployments.
 
 <br/>
 
-## Tech Stack
+## 🧰 Tech Stack
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=php,laravel,codeigniter,js,jquery,html,css,bootstrap,mysql,mongodb,python,git,github,postman,nginx,linux,vscode&perline=9&theme=dark">
-  <img src="https://skillicons.dev/icons?i=php,laravel,codeigniter,js,jquery,html,css,bootstrap,mysql,mongodb,python,git,github,postman,nginx,linux,vscode&perline=9&theme=light" alt="tech stack" />
-</picture>
+<img src="https://skillicons.dev/icons?i=php,laravel,codeigniter,js,jquery,html,css,bootstrap,mysql,mongodb,python&perline=11&theme=dark" /><br/>
+<img src="https://skillicons.dev/icons?i=git,github,postman,nginx,linux,vscode&perline=6&theme=dark" />
 
 </div>
 
-<br/>
-
-## Experience
-
-**Software Developer** · Prakhar Software Solutions Pvt Ltd, New Delhi
-*Aug 2023 – Present*
-Building and maintaining Laravel, CI4 and Core PHP applications, designing optimized MySQL databases, integrating payment, SMS and government APIs, and deploying to Apache/Nginx servers.
-
-**IT Assistant** · Prakhar Software Solutions Pvt Ltd, New Delhi
-*Aug 2022 – Jul 2023*
-Maintained live PHP/MySQL applications and automated workflows with Python and PHP scripts.
-
-**Full Stack Developer Intern** · TechnoFront Solutions, Gujarat
-*Jan 2022 – Jun 2022*
-Built an e-commerce store in PHP and JavaScript with end-to-end Razorpay integration.
+<details>
+<summary><b>View full skills breakdown</b></summary>
 
 <br/>
 
-## Selected Projects
+| Category | Technologies |
+|---|---|
+| **Backend** | PHP 7.4 / 8.x, Laravel, CodeIgniter 4, Core PHP, OOP, MVC |
+| **Frontend** | JavaScript, jQuery, Ajax, HTML5, CSS3, Bootstrap |
+| **Database** | MySQL (schema design, indexing, query optimization), MongoDB (basic) |
+| **APIs & Integrations** | RESTful APIs, Razorpay, SMS APIs, government service APIs |
+| **Security** | SQL injection prevention, XSS and CSRF protection, secure coding |
+| **Tools & Workflow** | Git, GitHub, Postman, Composer, phpMyAdmin, cPanel, SSH, Apache/Nginx, Agile/Scrum |
+| **AI-Assisted Dev** | ChatGPT and Claude for code generation, review and troubleshooting |
+
+</details>
+
+<br/>
+
+## 🚀 Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🏛️ Labourdnhdd**
-Government labour platform with REST APIs, MySQL optimization and caching. Drove a 50% increase in traffic.
-`Laravel` `CI4` `MySQL`
+#### 🏛️ Labourdnhdd
+*Government labour platform*
+
+REST APIs, MySQL optimization and caching on a live public platform.
+
+**Impact:** 📈 +50% traffic
+
+`Laravel` `CodeIgniter 4` `MySQL`
 
 </td>
 <td width="50%" valign="top">
 
-**🚢 Shipwave**
-Business management system with multi-role access and an optimized backend.
+#### 🚢 Shipwave
+*Business management system*
+
+Multi-role access control with an optimized backend for daily operations.
+
+**Impact:** 👥 Multi-role workflows
+
 `PHP` `MySQL` `jQuery`
 
 </td>
@@ -129,15 +136,25 @@ Business management system with multi-role access and an optimized backend.
 <tr>
 <td width="50%" valign="top">
 
-**💼 NCS DNH&DD**
-Government job-seeker portal with third-party API integration and a dynamic frontend.
-`PHP` `MySQL` `REST`
+#### 💼 NCS DNH&DD
+*Government job-seeker portal*
+
+Third-party API integration with a dynamic, responsive frontend.
+
+**Impact:** 🔗 External API integration
+
+`PHP` `MySQL` `REST APIs`
 
 </td>
 <td width="50%" valign="top">
 
-**🤝 Employment Exchange**
-Job-matching platform with employer and applicant modules, search and filter workflows.
+#### 🤝 Employment Exchange
+*Job-matching platform*
+
+Separate employer and applicant modules with search and filter workflows.
+
+**Impact:** 🔍 Smart matching
+
 `PHP` `MySQL` `Ajax`
 
 </td>
@@ -145,16 +162,65 @@ Job-matching platform with employer and applicant modules, search and filter wor
 <tr>
 <td width="50%" valign="top">
 
-**📑 Annual Return**
-Compliance tracker with dynamic forms and automated report generation.
+#### 📑 Annual Return
+*Compliance tracker*
+
+Dynamic forms with automated report generation.
+
+**Impact:** ⚙️ Automated reporting
+
 `PHP` `MySQL` `JavaScript`
 
 </td>
 <td width="50%" valign="top">
 
-**🎂 E-Cake Shop**
-E-commerce store with complete Razorpay payment integration.
+#### 🎂 E-Cake Shop
+*E-commerce store*
+
+Complete shopping flow with end-to-end Razorpay payment integration.
+
+**Impact:** 💳 Live payments
+
 `PHP` `jQuery` `Razorpay`
+
+</td>
+</tr>
+</table>
+
+<sub>Also built: BGYT Esports · Anime Watch · Daman Movie Hub · BOCW Board</sub>
+
+<br/>
+
+## 💼 Experience
+
+<table>
+<tr>
+<td width="22%" valign="top"><b>Aug 2023<br/>– Present</b></td>
+<td valign="top">
+
+**Software Developer** · Prakhar Software Solutions Pvt Ltd, New Delhi
+
+Building Laravel, CodeIgniter 4 and Core PHP applications, designing optimized MySQL databases, integrating payment, SMS and government APIs, and deploying to Apache/Nginx servers. Active in code reviews and Agile sprints.
+
+</td>
+</tr>
+<tr>
+<td width="22%" valign="top"><b>Aug 2022<br/>– Jul 2023</b></td>
+<td valign="top">
+
+**IT Assistant** · Prakhar Software Solutions Pvt Ltd, New Delhi
+
+Maintained live PHP/MySQL applications, fixed bugs, shipped enhancements, and automated workflows with Python and PHP scripts.
+
+</td>
+</tr>
+<tr>
+<td width="22%" valign="top"><b>Jan 2022<br/>– Jun 2022</b></td>
+<td valign="top">
+
+**Full Stack Developer Intern** · TechnoFront Solutions, Gujarat
+
+Built an e-commerce store in PHP and JavaScript with full Razorpay integration.
 
 </td>
 </tr>
@@ -162,44 +228,41 @@ E-commerce store with complete Razorpay payment integration.
 
 <br/>
 
-## GitHub Stats
+## 📊 GitHub Insights
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Moulik2886&show_icons=true&hide_border=true&theme=transparent&title_color=10b981&icon_color=0ea5e9&text_color=c9d1d9&include_all_commits=true&count_private=true">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Moulik2886&show_icons=true&hide_border=true&theme=transparent&title_color=059669&icon_color=0284c7&text_color=24292f&include_all_commits=true&count_private=true" alt="stats" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Moulik2886&layout=compact&hide_border=true&theme=transparent&title_color=10b981&text_color=c9d1d9&langs_count=8">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moulik2886&layout=compact&hide_border=true&theme=transparent&title_color=059669&text_color=24292f&langs_count=8" alt="languages" />
-</picture>
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=Moulik2886&show_icons=true&hide_border=false&border_color=1e293b&bg_color=0b1220&title_color=fbbf24&icon_color=f59e0b&text_color=e2e8f0&include_all_commits=true&count_private=true" />
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moulik2886&layout=compact&hide_border=false&border_color=1e293b&bg_color=0b1220&title_color=fbbf24&text_color=e2e8f0&langs_count=8" />
 
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Moulik2886&hide_border=true&background=00000000&stroke=10b981&ring=10b981&fire=0ea5e9&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=10b981&sideLabels=c9d1d9&dates=8b949e">
-  <img src="https://streak-stats.demolab.com?user=Moulik2886&hide_border=true&background=00000000&stroke=059669&ring=059669&fire=0284c7&currStreakNum=24292f&sideNums=24292f&currStreakLabel=059669&sideLabels=24292f&dates=57606a" alt="streak" />
-</picture>
+<img src="https://streak-stats.demolab.com?user=Moulik2886&hide_border=false&border=1e293b&background=0b1220&stroke=1e293b&ring=fbbf24&fire=f59e0b&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=fbbf24&sideLabels=e2e8f0&dates=94a3b8" />
 
 </div>
 
 <br/>
 
-## Education
+## 🎓 Education
 
-**MCA**, Gujarat Technological University, Ahmedabad · 2020 – 2022 · GPA 8.34
-**BCA**, Veer Narmad South Gujarat University, Surat · 2017 – 2020 · GPA 8.39
+| Degree | Institute | Years | GPA |
+|---|---|---|---|
+| **MCA** | Gujarat Technological University, Ahmedabad | 2020 – 2022 | **8.34** |
+| **BCA** | Veer Narmad South Gujarat University, Surat | 2017 – 2020 | **8.39** |
 
 <br/>
 
 <div align="center">
 
-### Let's build something together
+### 🤝 Let's build something great together
+
+<sub>Open to remote and relocation opportunities · Immediate joiner · Hindi · Gujarati · English</sub>
+
+<br/><br/>
 
 <a href="https://www.linkedin.com/in/moulik-solanki"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:solankimoulik18@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-10b981?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="mailto:solankimoulik18@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-FBBF24?style=for-the-badge&logo=gmail&logoColor=0b1220" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:10b981,100:0ea5e9&section=footer" width="100%" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0b1220,100:f59e0b&section=footer" width="100%" alt="footer" />
 
 </div>
