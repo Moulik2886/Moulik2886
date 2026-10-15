@@ -1,150 +1,153 @@
-<!-- ⚠️ Sirf ek kaam: Ctrl+F → GITHUB_USERNAME ko apne asli GitHub username se Replace All kar do -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0f0c29,50:302b63,100:24c6dc&text=MOULIK%20SOLANKI&fontColor=ffffff&fontSize=60&fontAlignY=38&animation=twinkling&desc=%3C%2F%3E%20Laravel%20PHP%20Developer%20%E2%80%A2%204%20Years%20of%20Building%20for%20the%20Web&descSize=18&descAlignY=60&stroke=24c6dc&strokeWidth=1" width="100%" alt="header" />
+<!-- ⚠️ Ctrl+F → GITHUB_USERNAME ko apne asli GitHub username se Replace All karein -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=700&color=24C6DC&center=true&vCenter=true&width=720&height=50&lines=%24+php+artisan+serve+%F0%9F%9A%80;Building+secure+%26+scalable+backends;Laravel+%7C+CodeIgniter+4+%7C+Core+PHP;REST+APIs+%C2%B7+MySQL+%C2%B7+Razorpay;Open+to+Remote+Roles+%7C+Immediate+Joiner+%E2%9C%85" alt="typing" />
+<img src="https://capsule-render.vercel.app/api?type=shark&height=230&color=0:FF2D20,100:7f1d1d&text=Moulik%20Solanki&fontColor=ffffff&fontSize=54&fontAlignY=36&animation=fadeIn&desc=Laravel%20PHP%20Developer%20%E2%80%A2%20Backend%20Specialist&descSize=18&descAlignY=58" width="100%" alt="header" />
 
-<br/>
-
-<img src="https://img.shields.io/badge/%F0%9F%9F%A2_Open_to_Work-0f0c29?style=for-the-badge&labelColor=0f0c29&color=22c55e" />
-<img src="https://img.shields.io/badge/Immediate_Joiner-0f0c29?style=for-the-badge&labelColor=0f0c29&color=24c6dc" />
-<img src="https://img.shields.io/badge/Remote-0f0c29?style=for-the-badge&labelColor=0f0c29&color=a855f7" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=3000&pause=800&color=FF2D20&center=true&vCenter=true&width=640&height=45&lines=Crafting+elegant+Laravel+applications;Secure+%E2%80%A2+Scalable+%E2%80%A2+Maintainable;Government+portals+to+e-commerce+stores;Available+immediately+%E2%80%94+Remote+friendly+%F0%9F%8C%8D" alt="typing" />
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=GITHUB_USERNAME&label=VISITORS&color=24c6dc&style=for-the-badge" />
-<img src="https://img.shields.io/github/followers/GITHUB_USERNAME?style=for-the-badge&logo=github&color=302b63&labelColor=0f0c29" />
-<img src="https://img.shields.io/github/stars/GITHUB_USERNAME?style=for-the-badge&logo=github&color=302b63&labelColor=0f0c29" />
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP_8-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![CodeIgniter](https://img.shields.io/badge/CodeIgniter_4-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=GITHUB_USERNAME&label=Profile+Views&color=FF2D20&style=flat-square" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%" />
+<br/>
 
-## 🖥️ ~/about-me
+> ### 👋 Hello, I'm Moulik
+> A **Laravel PHP Developer** from **Nani Daman, India** with **4 years** of experience building, maintaining and optimizing web applications. I care about clean MVC architecture, fast MySQL queries, secure code and reliable third-party integrations.
+>
+> 🟢 **Open to work** · ⚡ **Immediate joiner** · 🌍 **Remote / open to relocation**
 
-<div align="center">
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=1500&color=A855F7&width=760&height=140&lines=%3E+whoami;Moulik+Solanki+%E2%80%94+Laravel+PHP+Developer;%3E+cat+experience.txt;4+years+%7C+3+yrs+Software+Developer+%2B+1+yr+IT+Assistant;%3E+cat+focus.txt;MVC+%C2%B7+OOP+%C2%B7+REST+APIs+%C2%B7+MySQL+Optimization+%C2%B7+Secure+Coding;%3E+echo+%24LOCATION;Nani+Daman%2C+India+%F0%9F%87%AE%F0%9F%87%B3" alt="terminal" />
-
-</div>
-
-- 🏛️ Built **government platforms** (Labour, Employment, Job-seeker portals) serving real users
-- 🔌 Integrated **Razorpay, SMS gateways and government APIs**
-- 🛡️ Practise **SQL injection, XSS and CSRF protection** in every project
-- ⚡ Optimized MySQL and caching, contributing to a **50% traffic increase** on a live platform
-- 🤖 Use **ChatGPT and Claude** to speed up development and debugging
-- 🎓 **MCA**, Gujarat Technological University (GPA 8.34)
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%" />
-
-## ⚙️ Tech Arsenal
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=php,laravel,codeigniter,mysql,mongodb,python&theme=dark" /><br/>
-<img src="https://skillicons.dev/icons?i=js,jquery,html,css,bootstrap&theme=dark" /><br/>
-<img src="https://skillicons.dev/icons?i=git,github,postman,nginx,linux,vscode&theme=dark" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%" />
-
-## 🚀 Featured Work
+## 📌 Quick Facts
 
 <table>
 <tr>
-<td width="33%" valign="top">
-
-### 🏛️ Labourdnhdd
-Government labour platform with REST APIs, MySQL tuning and caching. **+50% traffic.**
-
-`Laravel` `CI4` `MySQL`
-
+<td align="center" width="25%">
+<h2>4+</h2>
+Years Experience
 </td>
-<td width="33%" valign="top">
-
-### 🚢 Shipwave
-Business management system with multi-role access and an optimized backend.
-
-`PHP` `MySQL` `jQuery`
-
+<td align="center" width="25%">
+<h2>10+</h2>
+Projects Delivered
 </td>
-<td width="33%" valign="top">
-
-### 💼 NCS DNH&DD
-Government job-seeker portal with third-party API integration.
-
-`PHP` `MySQL` `REST`
-
+<td align="center" width="25%">
+<h2>50%</h2>
+Traffic Growth on Live Gov Platform
 </td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### 🤝 Employment Exchange
-Job-matching platform with employer and applicant modules, search and filters.
-
-`PHP` `MySQL` `Ajax`
-
-</td>
-<td width="33%" valign="top">
-
-### 📑 Annual Return
-Compliance tracker with dynamic forms and automated report generation.
-
-`PHP` `MySQL` `JS`
-
-</td>
-<td width="33%" valign="top">
-
-### 🎂 E-Cake Shop
-E-commerce store with end-to-end Razorpay payments.
-
-`PHP` `jQuery` `Razorpay`
-
+<td align="center" width="25%">
+<h2>8.34</h2>
+MCA GPA
 </td>
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%" />
+<br/>
+
+## 🧰 What I Work With
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=php,laravel,codeigniter,mysql,mongodb,js,jquery,html,css,bootstrap,python,git,github,postman,nginx,linux,vscode&perline=9&theme=light" />
+
+</div>
+
+<details>
+<summary><b>🔎 See the full skills breakdown</b></summary>
+<br/>
+
+| Area | Details |
+|---|---|
+| ⚙️ **Backend** | PHP 7.4/8.x, Laravel, CodeIgniter 4, Core PHP, OOP, MVC |
+| 🗄️ **Database** | MySQL schema design, query optimization, indexing, MongoDB (basic) |
+| 🎨 **Frontend** | JavaScript, jQuery, Ajax, HTML5, CSS3, Bootstrap |
+| 🔌 **Integrations** | REST APIs, Razorpay, SMS APIs, government service APIs |
+| 🛡️ **Security** | SQL injection prevention, XSS and CSRF protection |
+| 🧪 **Tools** | Git, GitHub, Postman, Composer, phpMyAdmin, cPanel, SSH, Agile/Scrum |
+| 🤖 **AI-assisted dev** | ChatGPT and Claude for code generation, review and troubleshooting |
+
+</details>
+
+<br/>
+
+## 🛣️ My Journey
+
+```mermaid
+timeline
+    title Career Timeline
+    2017 - 2020 : BCA : Veer Narmad South Gujarat University
+    2020 - 2022 : MCA : Gujarat Technological University
+    Jan 2022 : Full Stack Developer Intern : TechnoFront Solutions : E-Cake Shop with Razorpay
+    Aug 2022 : IT Assistant : Prakhar Software Solutions : Automation with Python/PHP
+    Aug 2023 : Software Developer : Prakhar Software Solutions : Laravel, CI4, REST APIs, MySQL
+```
+
+<br/>
+
+## 🚀 Projects
+
+### 🏛️ Government & Enterprise
+
+| Project | What it does | Stack |
+|---|---|---|
+| **Labourdnhdd** | Government labour platform with REST APIs, MySQL optimization and caching (**+50% traffic**) | `Laravel` `CI4` `MySQL` |
+| **NCS DNH&DD** | Job-seeker portal with third-party API integration and dynamic frontend | `PHP` `MySQL` `REST` |
+| **Employment Exchange** | Job matching with employer and applicant modules, search and filters | `PHP` `MySQL` `Ajax` |
+| **Annual Return** | Compliance tracker with dynamic forms and automated reports | `PHP` `MySQL` `JS` |
+| **Shipwave** | Business management system with multi-role access | `PHP` `MySQL` `jQuery` |
+
+<details>
+<summary><b>🎮 More projects</b></summary>
+<br/>
+
+| Project | What it does | Stack |
+|---|---|---|
+| **E-Cake Shop** | E-commerce store with end-to-end Razorpay payments | `PHP` `jQuery` `Razorpay` |
+| **BGYT Esports** | Esports web platform | `PHP` `MySQL` |
+| **Anime Watch** | Anime browsing and watching site | `PHP` `JS` |
+| **Daman Movie Hub** | Movie listing and info portal | `PHP` `MySQL` |
+| **BOCW Board** | Board management web application | `PHP` `MySQL` |
+
+</details>
+
+<br/>
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=GITHUB_USERNAME&show_icons=true&hide_border=true&bg_color=0d1117&title_color=FF2D20&icon_color=FF2D20&text_color=c9d1d9&include_all_commits=true&count_private=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GITHUB_USERNAME&layout=compact&hide_border=true&bg_color=0d1117&title_color=FF2D20&text_color=c9d1d9&langs_count=8" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=GITHUB_USERNAME&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+<img src="https://streak-stats.demolab.com?user=GITHUB_USERNAME&hide_border=true&background=0D1117&stroke=FF2D20&ring=FF2D20&fire=FF2D20&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF2D20&sideLabels=c9d1d9&dates=8b949e" />
 
 </div>
 
-### 🐍 Contribution Snake
+<br/>
+
+## 📫 Get In Touch
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/GITHUB_USERNAME/GITHUB_USERNAME/output/github-snake-dark.svg" alt="snake animation" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=header" width="100%" />
-
-## 📫 Let's Connect
-
-<div align="center">
-
-<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=24c6dc&labelColor=0f0c29&color=24c6dc" /></a>
-<a href="https://YOUR_PORTFOLIO_LINK"><img src="https://img.shields.io/badge/Portfolio-0f0c29?style=for-the-badge&logo=googlechrome&logoColor=a855f7&labelColor=0f0c29&color=a855f7" /></a>
-<a href="mailto:solankimoulik18@gmail.com"><img src="https://img.shields.io/badge/Gmail-0f0c29?style=for-the-badge&logo=gmail&logoColor=ff4d6d&labelColor=0f0c29&color=ff4d6d" /></a>
+<a href="mailto:solankimoulik18@gmail.com"><img src="https://img.shields.io/badge/Email_Me-FF2D20?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="[https://linkedin.com/in/YOUR_LINKEDIN](https://www.linkedin.com/in/moulik-solanki)"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://YOUR_PORTFOLIO_LINK"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3500&pause=1200&color=94A3B8&center=true&vCenter=true&width=560&lines=%22Talk+is+cheap.+Show+me+the+code.%22;Let%27s+build+something+great+together+%E2%9C%A8" />
+**Hiring for a Laravel / PHP backend role? Let's talk.**
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:24c6dc,50:302b63,100:0f0c29&section=footer&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:7f1d1d,100:FF2D20&section=footer" width="100%" />
