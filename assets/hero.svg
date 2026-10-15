@@ -1,133 +1,182 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Moulik Solanki - Laravel PHP Developer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Moulik Solanki - Senior Laravel PHP Developer">
 <defs>
-  <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#05070f"/>
-    <stop offset="45%" stop-color="#0a0f1d"/>
-    <stop offset="100%" stop-color="#120a1c"/>
+  <linearGradient id="h-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#04060e"/>
+    <stop offset="50%" stop-color="#080d1e"/>
+    <stop offset="100%" stop-color="#12081c"/>
   </linearGradient>
-  <linearGradient id="laravel-grad" x1="0" y1="0" x2="1" y2="0">
+  
+  <!-- Animated Moving Gradient for Name -->
+  <linearGradient id="h-name-grad" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="860" y2="0" spreadMethod="repeat">
     <stop offset="0%" stop-color="#FF2D20"/>
-    <stop offset="50%" stop-color="#FF6B4A"/>
-    <stop offset="100%" stop-color="#00f0ff"/>
+    <stop offset="25%" stop-color="#ff7b54"/>
+    <stop offset="50%" stop-color="#00f0ff"/>
+    <stop offset="75%" stop-color="#a855f7"/>
+    <stop offset="100%" stop-color="#FF2D20"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="800 0" dur="6s" repeatCount="indefinite"/>
   </linearGradient>
-  <linearGradient id="border-grad" x1="0" y1="0" x2="1" y2="1">
+
+  <linearGradient id="h-border-laser" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#FF2D20"/>
-    <stop offset="50%" stop-color="#3b82f6"/>
-    <stop offset="100%" stop-color="#00f0ff"/>
+    <stop offset="50%" stop-color="#00f0ff"/>
+    <stop offset="100%" stop-color="#a855f7"/>
   </linearGradient>
-  <filter id="hero-blur" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="60"/>
+
+  <filter id="h-blur" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="55"/>
   </filter>
-  <filter id="glow-text">
-    <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-    <feMerge>
-      <feMergeNode in="coloredBlur"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
+  <filter id="h-glow">
+    <feGaussianBlur stdDeviation="5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-  <pattern id="dot-grid" width="30" height="30" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.08"/>
+
+  <pattern id="h-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#ffffff" stroke-width="0.7" stroke-opacity="0.04"/>
+    <circle cx="0" cy="0" r="1" fill="#ffffff" fill-opacity="0.12"/>
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="36 36" dur="6s" repeatCount="indefinite"/>
   </pattern>
-  <clipPath id="hero-clip">
-    <rect width="1200" height="400" rx="20"/>
+
+  <clipPath id="h-clip">
+    <rect width="1200" height="380" rx="22"/>
   </clipPath>
 </defs>
 
-<g clip-path="url(#hero-clip)">
-  <!-- Solid Background: Ensures black backdrop even in Light Mode -->
-  <rect width="1200" height="400" fill="url(#hero-bg)"/>
-  
-  <!-- Glowing Ambient Spheres -->
-  <circle cx="150" cy="80" r="140" fill="#FF2D20" opacity="0.22" filter="url(#hero-blur)"/>
-  <circle cx="1050" cy="320" r="160" fill="#00f0ff" opacity="0.18" filter="url(#hero-blur)"/>
-  <circle cx="600" cy="360" r="120" fill="#a855f7" opacity="0.15" filter="url(#hero-blur)"/>
-  
-  <!-- Dot Grid Overlay -->
-  <rect width="1200" height="400" fill="url(#dot-grid)"/>
+<g clip-path="url(#h-clip)">
+  <!-- Solid Black Background (100% Light Mode Proof) -->
+  <rect width="1200" height="380" fill="url(#h-bg)"/>
 
-  <!-- Left Side: Profile & Title Info -->
-  <!-- Status Pill -->
-  <g transform="translate(60, 48)">
-    <rect width="260" height="32" rx="16" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-opacity="0.45" stroke-width="1.2"/>
-    <circle cx="18" cy="16" r="4.5" fill="#10b981">
-      <animate attributeName="r" values="3.5;5.5;3.5" dur="1.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+  <!-- Animated Ambient Floating Nebula Orbs -->
+  <ellipse cx="180" cy="90" rx="240" ry="120" fill="#FF2D20" opacity="0.22" filter="url(#h-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 220 50; 0 0" dur="14s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="980" cy="280" rx="260" ry="130" fill="#00f0ff" opacity="0.20" filter="url(#h-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -240 -60; 0 0" dur="16s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="580" cy="320" rx="200" ry="100" fill="#a855f7" opacity="0.18" filter="url(#h-blur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -160 -80; 0 0" dur="18s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Moving Grid Overlay -->
+  <rect width="1200" height="380" fill="url(#h-grid)"/>
+
+  <!-- Twinkling & Drifting Particle Stars (Staggered Animation) -->
+  <circle cx="120" cy="80" r="1.5" fill="#fff"><animate attributeName="opacity" values="0.1;1;0.1" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="280" cy="40" r="2" fill="#FF2D20"><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" begin="-1s" repeatCount="indefinite"/></circle>
+  <circle cx="450" cy="110" r="1.8" fill="#00f0ff"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.8s" begin="-2s" repeatCount="indefinite"/></circle>
+  <circle cx="680" cy="60" r="1.5" fill="#fff"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.5s" begin="-0.5s" repeatCount="indefinite"/></circle>
+  <circle cx="820" cy="95" r="2.2" fill="#a855f7"><animate attributeName="opacity" values="0.1;1;0.1" dur="4.2s" begin="-3s" repeatCount="indefinite"/></circle>
+  <circle cx="140" cy="290" r="1.8" fill="#00f0ff"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" begin="-1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="360" cy="330" r="1.5" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.5s" begin="-0.8s" repeatCount="indefinite"/></circle>
+  <circle cx="520" cy="270" r="2" fill="#FF2D20"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" begin="-2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="740" cy="310" r="1.6" fill="#fff"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.1s" begin="-1.2s" repeatCount="indefinite"/></circle>
+  <circle cx="910" cy="260" r="2" fill="#00f0ff"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" begin="-2s" repeatCount="indefinite"/></circle>
+  <circle cx="1120" cy="120" r="1.8" fill="#a855f7"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.6s" begin="-1.8s" repeatCount="indefinite"/></circle>
+
+  <!-- Right Side: Rotating Orbital Tech Radar -->
+  <g transform="translate(1040, 190)">
+    <!-- Orbit Ring 1 -->
+    <g>
+      <circle r="55" fill="none" stroke="#FF2D20" stroke-opacity="0.35" stroke-dasharray="4 8" stroke-width="1.2"/>
+      <circle cx="55" cy="0" r="5" fill="#FF2D20"/>
+      <circle cx="55" cy="0" r="10" fill="#FF2D20" opacity="0.25"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <!-- Orbit Ring 2 -->
+    <g>
+      <circle r="92" fill="none" stroke="#00f0ff" stroke-opacity="0.35" stroke-dasharray="4 10" stroke-width="1.2"/>
+      <circle cx="92" cy="0" r="5" fill="#00f0ff"/>
+      <circle cx="92" cy="0" r="10" fill="#00f0ff" opacity="0.25"/>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite"/>
+    </g>
+    <!-- Orbit Ring 3 -->
+    <g>
+      <circle r="130" fill="none" stroke="#a855f7" stroke-opacity="0.30" stroke-dasharray="3 12" stroke-width="1.2"/>
+      <circle cx="130" cy="0" r="5.5" fill="#a855f7"/>
+      <circle cx="130" cy="0" r="11" fill="#a855f7" opacity="0.25"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+    </g>
+    <!-- Pulsing Center Core -->
+    <circle r="22" fill="#030712" stroke="#FF2D20" stroke-width="2"/>
+    <circle r="18" fill="#FF2D20" opacity="0.4">
+      <animate attributeName="r" values="16;22;16" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <text x="32" y="21" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#10b981">OPEN TO OPPORTUNITIES</text>
+    <text y="7" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="900" fill="#ffffff">&lt;/&gt;</text>
   </g>
 
-  <!-- Name -->
-  <text x="60" y="142" font-family="'Segoe UI', -apple-system, system-ui, sans-serif" font-size="58" font-weight="900" fill="url(#laravel-grad)" letter-spacing="1.5" filter="url(#glow-text)">MOULIK SOLANKI</text>
+  <!-- Left Side: Profile Text & Highlights -->
+  <!-- Status Indicator Pill -->
+  <g transform="translate(68, 52)">
+    <rect width="270" height="32" rx="16" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-opacity="0.5" stroke-width="1.2"/>
+    <circle cx="18" cy="16" r="4.5" fill="#10b981">
+      <animate attributeName="r" values="3.5;6;3.5" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="34" y="21" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#10b981">OPEN TO OPPORTUNITIES</text>
+  </g>
 
-  <!-- Tagline / Title -->
-  <text x="62" y="180" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="700" letter-spacing="3" fill="#00f0ff">LARAVEL PHP DEVELOPER · BACKEND ARCHITECT</text>
-  
-  <text x="62" y="214" font-family="'Segoe UI', -apple-system, system-ui, sans-serif" font-size="16" fill="#94a3b8">
-    Building high-performance e-governance platforms, RESTful APIs &amp; enterprise ERPs.
-  </text>
-  <text x="62" y="238" font-family="'Segoe UI', -apple-system, system-ui, sans-serif" font-size="16" fill="#94a3b8">
-    Specialized in Laravel, CodeIgniter 4, MySQL optimization &amp; AI-assisted development.
-  </text>
+  <!-- Name with Flowing Gradient -->
+  <text x="66" y="150" font-family="'Segoe UI', -apple-system, system-ui, sans-serif" font-size="62" font-weight="900" fill="url(#h-name-grad)" letter-spacing="1.5" filter="url(#h-glow)">MOULIK SOLANKI</text>
+
+  <!-- Title Subtitle -->
+  <text x="68" y="190" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="700" letter-spacing="4" fill="#00f0ff">LARAVEL PHP DEVELOPER  /  BACKEND ARCHITECT</text>
+
+  <!-- Animated Expanding Accent Line -->
+  <rect x="68" y="206" width="0" height="3" rx="1.5" fill="url(#h-border-laser)">
+    <animate attributeName="width" values="0;360;360;0" keyTimes="0;.15;.85;1" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Rotating Animated Subtitle Carousel (4 Rotating Messages) -->
+  <g transform="translate(68, 252)" font-family="'Segoe UI', -apple-system, sans-serif" font-size="21" font-weight="600" fill="#e2e8f0">
+    <!-- Message 1 -->
+    <text y="0" opacity="0">
+      Laravel PHP Specialist  ·  Laravel 12  ·  CodeIgniter 4  ·  Core PHP
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.22;0.25;1" dur="16s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 0; 0 -10; 0 -10" keyTimes="0;0.22;0.25;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+    <!-- Message 2 -->
+    <text y="0" opacity="0">
+      High-Traffic MySQL Optimization  ·  Schema Design &amp; Index Tuning
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.28;0.47;0.50;1" dur="16s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 10; 0 10; 0 0; 0 0; 0 -10; 0 -10" keyTimes="0;0.25;0.28;0.47;0.50;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+    <!-- Message 3 -->
+    <text y="0" opacity="0">
+      E-Governance Platforms &amp; Payment Gateways (Razorpay / SBIePay)
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.50;0.53;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 10; 0 10; 0 0; 0 0; 0 -10; 0 -10" keyTimes="0;0.50;0.53;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+    <!-- Message 4 -->
+    <text y="0" opacity="0">
+      AI-Assisted Vibe Coder (Claude.ai &amp; ChatGPT) · 60% Faster Delivery
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.75;0.78;0.97;1.0;1" dur="16s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 10; 0 10; 0 0; 0 0; 0 -10; 0 -10" keyTimes="0;0.75;0.78;0.97;1.0;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+  </g>
 
   <!-- Badges Row -->
-  <g transform="translate(60, 276)">
-    <!-- Badge 1: Experience -->
-    <rect x="0" y="0" width="125" height="34" rx="17" fill="#ffffff" fill-opacity="0.04" stroke="#FF2D20" stroke-opacity="0.6"/>
-    <text x="62" y="22" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" fill="#FF6B4A">⚡ 4+ YEARS</text>
-    
-    <!-- Badge 2: Stack -->
-    <rect x="135" y="0" width="165" height="34" rx="17" fill="#ffffff" fill-opacity="0.04" stroke="#00f0ff" stroke-opacity="0.6"/>
-    <text x="217" y="22" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" fill="#00f0ff">🐘 LARAVEL &amp; CI4</text>
-    
+  <g transform="translate(68, 298)">
+    <!-- Badge 1: 4+ Years -->
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#FF2D20" stroke-opacity="0.6"/>
+    <text x="60" y="21" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="12.5" font-weight="700" fill="#FF6B4A">⚡ 4+ YEARS</text>
+
+    <!-- Badge 2: Laravel / PHP -->
+    <rect x="132" y="0" width="160" height="32" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#00f0ff" stroke-opacity="0.6"/>
+    <text x="212" y="21" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="12.5" font-weight="700" fill="#00f0ff">🐘 LARAVEL / PHP</text>
+
     <!-- Badge 3: MCA -->
-    <rect x="310" y="0" width="170" height="34" rx="17" fill="#ffffff" fill-opacity="0.04" stroke="#a855f7" stroke-opacity="0.6"/>
-    <text x="395" y="22" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" fill="#c084fc">🎓 MCA GRADUATE</text>
-    
+    <rect x="304" y="0" width="150" height="32" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#a855f7" stroke-opacity="0.6"/>
+    <text x="379" y="21" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="12.5" font-weight="700" fill="#c084fc">🎓 MCA (GTU)</text>
+
     <!-- Badge 4: Location -->
-    <rect x="490" y="0" width="180" height="34" rx="17" fill="#ffffff" fill-opacity="0.04" stroke="#38bdf8" stroke-opacity="0.6"/>
-    <text x="580" y="22" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="700" fill="#7dd3fc">📍 DAMAN · INDIA</text>
+    <rect x="466" y="0" width="220" height="32" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#10b981" stroke-opacity="0.6"/>
+    <text x="576" y="21" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="12.5" font-weight="700" fill="#34d399">📍 DAMAN · DNH&amp;DD · INDIA</text>
   </g>
-
-  <!-- Fast Highlights -->
-  <g transform="translate(60, 345)">
-    <circle cx="6" cy="6" r="3.5" fill="#FF2D20"/>
-    <text x="20" y="10" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#cbd5e1">10+ Production Projects</text>
-    
-    <circle cx="230" cy="6" r="3.5" fill="#00f0ff"/>
-    <text x="244" y="10" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#cbd5e1">MySQL Query Optimization</text>
-    
-    <circle cx="485" cy="6" r="3.5" fill="#10b981"/>
-    <text x="499" y="10" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" fill="#cbd5e1">Razorpay &amp; Govt APIs</text>
-  </g>
-
-  <!-- Right Side: Custom Laravel Artisan Code Terminal -->
-  <g transform="translate(730, 48)">
-    <!-- Terminal Window Container -->
-    <rect width="410" height="304" rx="14" fill="#030712" stroke="#1f293d" stroke-width="1.5"/>
-    <rect width="410" height="38" rx="14" fill="#0b1120"/>
-    <!-- Window buttons -->
-    <circle cx="22" cy="19" r="6" fill="#ef4444"/>
-    <circle cx="42" cy="19" r="6" fill="#f59e0b"/>
-    <circle cx="62" cy="19" r="6" fill="#10b981"/>
-    <text x="205" y="24" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" fill="#64748b">moulik@artisan: ~/backend</text>
-
-    <!-- Terminal Code / Commands -->
-    <g transform="translate(20, 68)" font-family="'JetBrains Mono', Consolas, monospace" font-size="13">
-      <text y="0"><tspan fill="#FF2D20">❯ </tspan><tspan fill="#e2e8f0">php artisan developer:inspect</tspan></text>
-      
-      <text y="32" fill="#64748b">[System Info: Initialized]</text>
-      
-      <text y="64"><tspan fill="#38bdf8">Framework :</tspan> <tspan fill="#f1f5f9">Laravel 12 · CodeIgniter 4</tspan></text>
-      <text y="92"><tspan fill="#38bdf8">Database  :</tspan> <tspan fill="#f1f5f9">MySQL (Schema + Indexing)</tspan></text>
-      <text y="120"><tspan fill="#38bdf8">Workflow  :</tspan> <tspan fill="#f1f5f9">AI Vibe Coding (Claude/GPT)</tspan></text>
-      <text y="148"><tspan fill="#38bdf8">Security  :</tspan> <tspan fill="#f1f5f9">Sanctum · CSRF/SQLi Shields</tspan></text>
-      <text y="176"><tspan fill="#38bdf8">Delivery  :</tspan> <tspan fill="#10b981">60% Faster Feature Cycles</tspan></text>
-      
-      <text y="210"><tspan fill="#FF2D20">❯ </tspan><tspan fill="#10b981">✓ Status: Ready to Deploy</tspan><tspan fill="#00f0ff"> █</tspan></text>
-    </g>
-  </g>
-
-  <!-- Border Highlight -->
-  <rect x="1" y="1" width="1198" height="398" rx="19" fill="none" stroke="url(#border-grad)" stroke-width="1.8" stroke-opacity="0.45"/>
 </g>
+
+<!-- Animated Running Laser Border Tracer (Neon Beam encircling the card) -->
+<rect x="1.5" y="1.5" width="1197" height="377" rx="21" fill="none" stroke="#1e293b" stroke-width="1.8"/>
+<rect x="1.5" y="1.5" width="1197" height="377" rx="21" fill="none" stroke="url(#h-border-laser)" stroke-width="2.5" stroke-linecap="round" pathLength="1000" stroke-dasharray="120 880">
+  <animate attributeName="stroke-dashoffset" values="0;-1000" dur="7s" repeatCount="indefinite"/>
+</rect>
 </svg>

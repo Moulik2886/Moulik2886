@@ -78,4 +78,9 @@
 
   <rect x="1" y="1" width="1198" height="258" rx="17" fill="none" stroke="#253248" stroke-width="1.5"/>
 </g>
+
+<!-- Animated Running Laser Border -->
+<rect x="1" y="1" width="1198" height="258" rx="17" fill="none" stroke="#a855f7" stroke-width="2" stroke-linecap="round" pathLength="1000" stroke-dasharray="140 860">
+  <animate attributeName="stroke-dashoffset" values="0;-1000" dur="8s" repeatCount="indefinite"/>
+</rect>
 </svg>

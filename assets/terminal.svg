@@ -1,102 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="340" viewBox="0 0 1180 340" role="img" aria-label="Core Strengths and Architecture">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="420" viewBox="0 0 1180 420" role="img" aria-label="Interactive Terminal Intro">
 <defs>
-  <linearGradient id="card-bg" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#050811"/>
-    <stop offset="100%" stop-color="#090d1a"/>
+  <linearGradient id="t-laser" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#FF2D20"/>
+    <stop offset="50%" stop-color="#00f0ff"/>
+    <stop offset="100%" stop-color="#a855f7"/>
   </linearGradient>
-  <linearGradient id="inner-card-bg" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#0c1222"/>
+  <linearGradient id="t-bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#040711"/>
     <stop offset="100%" stop-color="#080c18"/>
   </linearGradient>
-  <linearGradient id="glow-red" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#FF2D20"/>
-    <stop offset="100%" stop-color="#f43f5e"/>
-  </linearGradient>
-  <linearGradient id="glow-cyan" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#00f0ff"/>
-    <stop offset="100%" stop-color="#3b82f6"/>
-  </linearGradient>
-  <linearGradient id="glow-purple" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#a855f7"/>
-    <stop offset="100%" stop-color="#6366f1"/>
-  </linearGradient>
-  <clipPath id="clip-main">
-    <rect width="1180" height="340" rx="18"/>
+  <filter id="t-blur" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="40"/>
+  </filter>
+  <clipPath id="t-clipw">
+    <rect width="1180" height="420" rx="18"/>
   </clipPath>
+
+  <!-- Typewriter Clip Paths (Animated Widths for Commands and Outputs) -->
+  <clipPath id="tc0"><rect x="32" y="72" width="0" height="30"><animate attributeName="width" values="0;0;105;105;0" keyTimes="0;0.04;0.09;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="to0"><rect x="32" y="102" width="0" height="30"><animate attributeName="width" values="0;0;680;680;0" keyTimes="0;0.10;0.15;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+
+  <clipPath id="tc1"><rect x="32" y="136" width="0" height="30"><animate attributeName="width" values="0;0;165;165;0" keyTimes="0;0.18;0.23;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="to1"><rect x="32" y="166" width="0" height="30"><animate attributeName="width" values="0;0;840;840;0" keyTimes="0;0.24;0.29;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+
+  <clipPath id="tc2"><rect x="32" y="200" width="0" height="30"><animate attributeName="width" values="0;0;210;210;0" keyTimes="0;0.32;0.37;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="to2"><rect x="32" y="230" width="0" height="30"><animate attributeName="width" values="0;0;840;840;0" keyTimes="0;0.38;0.43;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+
+  <clipPath id="tc3"><rect x="32" y="264" width="0" height="30"><animate attributeName="width" values="0;0;220;220;0" keyTimes="0;0.46;0.51;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="to3"><rect x="32" y="294" width="0" height="30"><animate attributeName="width" values="0;0;840;840;0" keyTimes="0;0.52;0.57;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+
+  <clipPath id="tc4"><rect x="32" y="328" width="0" height="30"><animate attributeName="width" values="0;0;165;165;0" keyTimes="0;0.60;0.65;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="to4"><rect x="32" y="358" width="0" height="30"><animate attributeName="width" values="0;0;640;640;0" keyTimes="0;0.66;0.71;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
 </defs>
 
-<g clip-path="url(#clip-main)">
-  <!-- Solid Dark Background: Zero white bleed in Light Mode -->
-  <rect width="1180" height="340" fill="url(#card-bg)"/>
+<g clip-path="url(#t-clipw)">
+  <!-- Solid Black Background -->
+  <rect width="1180" height="420" fill="url(#t-bg)"/>
   
-  <!-- Top Bar -->
-  <rect width="1180" height="46" fill="#0c1324"/>
-  <circle cx="28" cy="23" r="6" fill="#ef4444"/>
-  <circle cx="48" cy="23" r="6" fill="#f59e0b"/>
-  <circle cx="68" cy="23" r="6" fill="#10b981"/>
-  <text x="590" y="28" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600" fill="#94a3b8">
-    moulik-solanki :: core-engineering-architecture.php
+  <!-- Glowing Floating Ambiance -->
+  <ellipse cx="1000" cy="320" rx="220" ry="100" fill="#FF2D20" opacity="0.15" filter="url(#t-blur)">
+    <animate attributeName="opacity" values="0.10;0.25;0.10" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="120" cy="80" rx="180" ry="80" fill="#00f0ff" opacity="0.15" filter="url(#t-blur)">
+    <animate attributeName="opacity" values="0.10;0.22;0.10" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Window Header Bar -->
+  <rect width="1180" height="44" fill="#0c1222"/>
+  <circle cx="28" cy="22" r="6.5" fill="#ff5f57"/>
+  <circle cx="50" cy="22" r="6.5" fill="#febc2e"/>
+  <circle cx="72" cy="22" r="6.5" fill="#28c840"/>
+  <text x="590" y="27" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="13.5" font-weight="600" fill="#8b98b8">
+    moulik@daman: ~/portfolio/laravel-architect
   </text>
 
-  <!-- 3 Pillar Columns -->
-  <!-- Pillar 1: Backend Engineering -->
-  <g transform="translate(30, 68)">
-    <rect width="350" height="240" rx="12" fill="url(#inner-card-bg)" stroke="#1e293b" stroke-width="1.2"/>
-    <!-- Card Header -->
-    <rect x="0" y="0" width="350" height="42" rx="12" fill="#FF2D20" fill-opacity="0.12"/>
-    <circle cx="24" cy="21" r="5" fill="#FF2D20"/>
-    <text x="38" y="26" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="700" fill="#FF6B4A">BACKEND &amp; MVC</text>
+  <!-- Line 0: whoami -->
+  <text x="34" y="93" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" clip-path="url(#tc0)">
+    <tspan fill="#FF2D20">❯ </tspan><tspan fill="#f8fafc">whoami</tspan>
+  </text>
+  <text x="34" y="123" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" fill="#38bdf8" clip-path="url(#to0)">
+    Moulik Solanki — Senior Laravel &amp; PHP Full-Stack Developer (4+ Years Exp)
+  </text>
 
-    <!-- Card Points -->
-    <g transform="translate(18, 64)" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13.5" fill="#cbd5e1">
-      <text y="0"><tspan fill="#FF2D20">▹</tspan> Laravel 12, CodeIgniter 4 &amp; Core PHP</text>
-      <text y="28"><tspan fill="#FF2D20">▹</tspan> Robust OOP, MVC &amp; SOLID Principles</text>
-      <text y="56"><tspan fill="#FF2D20">▹</tspan> High-throughput RESTful API design</text>
-      <text y="84"><tspan fill="#FF2D20">▹</tspan> Payment gateways (Razorpay, SBIePay)</text>
-      <text y="112"><tspan fill="#FF2D20">▹</tspan> Secure Auth: Laravel Sanctum, JWT, RBAC</text>
-      <text y="140"><tspan fill="#FF2D20">▹</tspan> SQLi, XSS &amp; CSRF protection built-in</text>
-    </g>
+  <!-- Line 1: cat focus.json -->
+  <text x="34" y="157" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" clip-path="url(#tc1)">
+    <tspan fill="#FF2D20">❯ </tspan><tspan fill="#f8fafc">cat focus.json</tspan>
+  </text>
+  <text x="34" y="187" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" fill="#94a3b8" clip-path="url(#to1)">
+    {"backend": "Laravel 12 / CI4", "database": "MySQL Tuning", "apis": "RESTful / Razorpay", "security": "Sanctum / RBAC"}
+  </text>
+
+  <!-- Line 2: cat achievements.txt -->
+  <text x="34" y="221" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" clip-path="url(#tc2)">
+    <tspan fill="#FF2D20">❯ </tspan><tspan fill="#f8fafc">cat achievements.log</tspan>
+  </text>
+  <text x="34" y="251" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" fill="#a855f7" clip-path="url(#to2)">
+    ✓ Labourdnhdd (+50% traffic handled)  |  ✓ 60% faster feature delivery via AI vibe coding  |  ✓ 10+ live platforms
+  </text>
+
+  <!-- Line 3: ls flagship-projects/ -->
+  <text x="34" y="285" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" clip-path="url(#tc3)">
+    <tspan fill="#FF2D20">❯ </tspan><tspan fill="#f8fafc">ls flagship-projects/</tspan>
+  </text>
+  <text x="34" y="315" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" fill="#cbd5e1" clip-path="url(#to3)">
+    <tspan fill="#FF6B4A">labourdnhdd.in/</tspan>  <tspan fill="#00f0ff">shipwave.in-erp/</tspan>  <tspan fill="#a855f7">ncs-mole-gateway/</tspan>  <tspan fill="#10b981">bocw-cess/</tspan>  <tspan fill="#f59e0b">employment-exchange/</tspan>
+  </text>
+
+  <!-- Line 4: echo $STATUS -->
+  <text x="34" y="349" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" clip-path="url(#tc4)">
+    <tspan fill="#FF2D20">❯ </tspan><tspan fill="#f8fafc">echo $AVAILABILITY</tspan>
+  </text>
+  <text x="34" y="379" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" font-weight="700" fill="#10b981" clip-path="url(#to4)">
+    ✓ Open to Opportunities · Immediate Joiner · Remote / Relocation
+  </text>
+
+  <!-- Active Blinking Prompt -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.74;0.75;0.96;1" dur="16s" repeatCount="indefinite"/>
+    <text x="34" y="407" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" fill="#FF2D20">❯ </text>
+    <rect x="62" y="392" width="11" height="19" fill="#00f0ff">
+      <animate attributeName="opacity" values="1;0;1" keyTimes="0;.5;1" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
   </g>
-
-  <!-- Pillar 2: Database & Performance -->
-  <g transform="translate(415, 68)">
-    <rect width="350" height="240" rx="12" fill="url(#inner-card-bg)" stroke="#1e293b" stroke-width="1.2"/>
-    <!-- Card Header -->
-    <rect x="0" y="0" width="350" height="42" rx="12" fill="#00f0ff" fill-opacity="0.12"/>
-    <circle cx="24" cy="21" r="5" fill="#00f0ff"/>
-    <text x="38" y="26" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="700" fill="#00f0ff">DATABASE &amp; SCALE</text>
-
-    <!-- Card Points -->
-    <g transform="translate(18, 64)" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13.5" fill="#cbd5e1">
-      <text y="0"><tspan fill="#00f0ff">▹</tspan> High-volume MySQL schema architecture</text>
-      <text y="28"><tspan fill="#00f0ff">▹</tspan> Advanced query tuning, joins &amp; indexing</text>
-      <text y="56"><tspan fill="#00f0ff">▹</tspan> 50% traffic surge handled (Labourdnhdd)</text>
-      <text y="84"><tspan fill="#00f0ff">▹</tspan> Redis &amp; application-layer caching</text>
-      <text y="112"><tspan fill="#00f0ff">▹</tspan> Multi-tenant business ERP (Shipwave)</text>
-      <text y="140"><tspan fill="#00f0ff">▹</tspan> Live database backup &amp; automated sync</text>
-    </g>
-  </g>
-
-  <!-- Pillar 3: AI Vibe Coding & Delivery -->
-  <g transform="translate(800, 68)">
-    <rect width="350" height="240" rx="12" fill="url(#inner-card-bg)" stroke="#1e293b" stroke-width="1.2"/>
-    <!-- Card Header -->
-    <rect x="0" y="0" width="350" height="42" rx="12" fill="#a855f7" fill-opacity="0.12"/>
-    <circle cx="24" cy="21" r="5" fill="#a855f7"/>
-    <text x="38" y="26" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="700" fill="#c084fc">AI &amp; RAPID DELIVERY</text>
-
-    <!-- Card Points -->
-    <g transform="translate(18, 64)" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13.5" fill="#cbd5e1">
-      <text y="0"><tspan fill="#a855f7">▹</tspan> AI-assisted vibe coding: Claude &amp; ChatGPT</text>
-      <text y="28"><tspan fill="#a855f7">▹</tspan> 60% faster code delivery &amp; prototyping</text>
-      <text y="56"><tspan fill="#a855f7">▹</tspan> Systematic root-cause production debugging</text>
-      <text y="84"><tspan fill="#a855f7">▹</tspan> Python &amp; PHP background automation</text>
-      <text y="112"><tspan fill="#a855f7">▹</tspan> Apache, Nginx, cPanel &amp; SSH deployments</text>
-      <text y="140"><tspan fill="#a855f7">▹</tspan> Agile sprints, code reviews &amp; Git flows</text>
-    </g>
-  </g>
-
-  <!-- Outer Border -->
-  <rect x="1" y="1" width="1178" height="338" rx="17" fill="none" stroke="#253248" stroke-width="1.5"/>
 </g>
+
+<!-- Animated Running Laser Border -->
+<rect x="1" y="1" width="1178" height="418" rx="17" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+<rect x="1" y="1" width="1178" height="418" rx="17" fill="none" stroke="url(#t-laser)" stroke-width="2.2" stroke-linecap="round" pathLength="1000" stroke-dasharray="110 890">
+  <animate attributeName="stroke-dashoffset" values="0;-1000" dur="6.5s" repeatCount="indefinite"/>
+</rect>
 </svg>

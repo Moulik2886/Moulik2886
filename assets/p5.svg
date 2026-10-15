@@ -1,34 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="256" viewBox="0 0 580 256" role="img" aria-label="Department of Labour Main Portal">
 <defs>
   <linearGradient id="p5-bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#060914"/>
-    <stop offset="100%" stop-color="#0b1022"/>
+    <stop offset="0%" stop-color="#050712"/>
+    <stop offset="100%" stop-color="#0a0f22"/>
   </linearGradient>
   <linearGradient id="p5-accent" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#10b981"/>
     <stop offset="100%" stop-color="#00f0ff"/>
   </linearGradient>
+  <linearGradient id="p5-shimmer" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#fff" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
   <clipPath id="p5-clip">
     <rect width="580" height="256" rx="16"/>
   </clipPath>
 </defs>
+
 <g clip-path="url(#p5-clip)">
   <rect width="580" height="256" fill="url(#p5-bg)"/>
-  <circle cx="530" cy="40" r="110" fill="#10b981" opacity="0.10"/>
   
-  <text x="548" y="72" text-anchor="end" font-family="'Segoe UI', sans-serif" font-size="48" font-weight="900" fill="none" stroke="#10b981" stroke-opacity="0.3" stroke-width="1.5">05</text>
-  <text x="28" y="52" font-family="'Segoe UI', -apple-system, sans-serif" font-size="21" font-weight="700" fill="#ffffff">Department Official Web Portal</text>
-  <text x="28" y="76" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="0.5" fill="#10b981">PUBLIC NOTICES · GAZETTES &amp; STATUTORY COMPLIANCE</text>
+  <circle cx="530" cy="40" r="100" fill="#10b981" opacity="0.12">
+    <animate attributeName="opacity" values="0.08;0.22;0.08" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
   
-  <line x1="28" y1="92" x2="552" y2="92" stroke="url(#p5-accent)" stroke-width="1.8" stroke-opacity="0.7"/>
+  <text x="548" y="70" text-anchor="end" font-family="'Segoe UI', sans-serif" font-size="48" font-weight="900" fill="none" stroke="#10b981" stroke-opacity="0.3" stroke-width="1.5">05</text>
+  <text x="28" y="50" font-family="'Segoe UI', -apple-system, sans-serif" font-size="21" font-weight="700" fill="#ffffff">Department Official Web Portal</text>
+  <text x="28" y="74" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="0.5" fill="#10b981">PUBLIC NOTICES · GAZETTES &amp; STATUTORY COMPLIANCE</text>
+  
+  <line x1="28" y1="90" x2="552" y2="90" stroke="url(#p5-accent)" stroke-width="1.8" stroke-opacity="0.7"/>
 
-  <g transform="translate(28, 120)" font-family="'Segoe UI', -apple-system, sans-serif" font-size="14" fill="#cbd5e1">
+  <g transform="translate(28, 118)" font-family="'Segoe UI', -apple-system, sans-serif" font-size="14" fill="#cbd5e1">
     <text y="0"><tspan fill="#10b981" font-weight="bold">▸</tspan> Custom PHP CMS delivering official announcements &amp; tenders</text>
     <text y="28"><tspan fill="#10b981" font-weight="bold">▸</tspan> Downloadable statutory compliance forms in centralized hub</text>
     <text y="56"><tspan fill="#10b981" font-weight="bold">▸</tspan> Secure document repository with access control &amp; audit trails</text>
   </g>
 
-  <g transform="translate(28, 206)">
+  <g transform="translate(28, 204)">
     <rect x="0" y="0" width="105" height="26" rx="13" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.5"/>
     <text x="52" y="17" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" font-weight="600" fill="#34d399">Custom CMS</text>
 
@@ -42,6 +51,15 @@
     <text x="317" y="17" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#e2e8f0">Security</text>
   </g>
 
-  <rect x="1" y="1" width="578" height="254" rx="15" fill="none" stroke="#232f48" stroke-width="1.5"/>
+  <!-- Shimmer Beam -->
+  <rect x="-200" y="0" width="120" height="256" fill="url(#p5-shimmer)" transform="skewX(-20)">
+    <animate attributeName="x" values="-200;750;750" keyTimes="0;.4;1" dur="7s" begin="1.2s" repeatCount="indefinite"/>
+  </rect>
 </g>
+
+<!-- Animated Running Laser Border -->
+<rect x="1" y="1" width="578" height="254" rx="15" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+<rect x="1" y="1" width="578" height="254" rx="15" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" pathLength="1000" stroke-dasharray="100 900">
+  <animate attributeName="stroke-dashoffset" values="0;-1000" dur="6s" begin="0.8s" repeatCount="indefinite"/>
+</rect>
 </svg>
