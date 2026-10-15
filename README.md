@@ -1,5 +1,3 @@
-<!-- Ctrl+F → GITHUB_USERNAME ko apne asli GitHub username se Replace All karein -->
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=soft&height=200&color=0:10b981,100:0ea5e9&text=Moulik%20Solanki&fontColor=ffffff&fontSize=52&fontAlignY=45&animation=fadeIn" width="100%" alt="header" />
@@ -13,7 +11,7 @@
 <a href="https://www.linkedin.com/in/moulik-solanki"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:solankimoulik18@gmail.com"><img src="https://img.shields.io/badge/Email-Say_Hello-10b981?style=flat-square&logo=gmail&logoColor=white" /></a>
 <img src="https://img.shields.io/badge/Open_to_Work-Immediate_Joiner-22c55e?style=flat-square" />
-<img src="https://komarev.com/ghpvc/?username=GITHUB_USERNAME&label=Views&color=0ea5e9&style=flat-square" />
+<img src="https://komarev.com/ghpvc/?username=Moulik2886&label=Views&color=0ea5e9&style=flat-square" />
 
 </div>
 
@@ -169,19 +167,19 @@ E-commerce store with complete Razorpay payment integration.
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=GITHUB_USERNAME&show_icons=true&hide_border=true&theme=transparent&title_color=10b981&icon_color=0ea5e9&text_color=c9d1d9&include_all_commits=true&count_private=true">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=GITHUB_USERNAME&show_icons=true&hide_border=true&theme=transparent&title_color=059669&icon_color=0284c7&text_color=24292f&include_all_commits=true&count_private=true" alt="stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Moulik2886&show_icons=true&hide_border=true&theme=transparent&title_color=10b981&icon_color=0ea5e9&text_color=c9d1d9&include_all_commits=true&count_private=true">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Moulik2886&show_icons=true&hide_border=true&theme=transparent&title_color=059669&icon_color=0284c7&text_color=24292f&include_all_commits=true&count_private=true" alt="stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=GITHUB_USERNAME&layout=compact&hide_border=true&theme=transparent&title_color=10b981&text_color=c9d1d9&langs_count=8">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GITHUB_USERNAME&layout=compact&hide_border=true&theme=transparent&title_color=059669&text_color=24292f&langs_count=8" alt="languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Moulik2886&layout=compact&hide_border=true&theme=transparent&title_color=10b981&text_color=c9d1d9&langs_count=8">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moulik2886&layout=compact&hide_border=true&theme=transparent&title_color=059669&text_color=24292f&langs_count=8" alt="languages" />
 </picture>
 
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=GITHUB_USERNAME&hide_border=true&background=00000000&stroke=10b981&ring=10b981&fire=0ea5e9&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=10b981&sideLabels=c9d1d9&dates=8b949e">
-  <img src="https://streak-stats.demolab.com?user=GITHUB_USERNAME&hide_border=true&background=00000000&stroke=059669&ring=059669&fire=0284c7&currStreakNum=24292f&sideNums=24292f&currStreakLabel=059669&sideLabels=24292f&dates=57606a" alt="streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Moulik2886&hide_border=true&background=00000000&stroke=10b981&ring=10b981&fire=0ea5e9&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=10b981&sideLabels=c9d1d9&dates=8b949e">
+  <img src="https://streak-stats.demolab.com?user=Moulik2886&hide_border=true&background=00000000&stroke=059669&ring=059669&fire=0284c7&currStreakNum=24292f&sideNums=24292f&currStreakLabel=059669&sideLabels=24292f&dates=57606a" alt="streak" />
 </picture>
 
 </div>
